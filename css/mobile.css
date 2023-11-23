@@ -1,0 +1,31 @@
+@media (max-width: 767.98px) {
+  /* banner */
+  .banner {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(./banner.jpg);
+    background-size: cover;
+
+    height: 500px;
+    background-position: center center;
+  }
+
+  /* nav-bar */
+  .nar-container .avarta {
+    display: none;
+  }
+  .nar-container {
+    border: 0px;
+  }
+  /* Certificates & Awards */
+  .information-item-1 {
+    border-right: none;
+  }
+  /* footer */
+  .text-grey {
+    display: none;
+  }
+  .footer-size {
+    font-size: 400%;
+  }
+}
